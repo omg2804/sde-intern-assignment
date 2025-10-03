@@ -10,11 +10,9 @@ A **Nest.js** API project with **PostgreSQL** integration, JWT-based authenticat
 - [Getting Started](#getting-started)
 - [Environment Variables](#environment-variables)
 - [Running the Application](#running-the-application)
-- [API Endpoints](#api-endpoints)
 - [Testing](#testing)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -51,8 +49,9 @@ git clone https://github.com/your-username/sde-intern-assignment.git
 cd sde-intern-assignment
 npm install
 ```
+---
 
-### Environment Variables
+## Environment Variables
 ```bash
 DB_HOST=localhost
 DB_PORT=5432
@@ -61,8 +60,9 @@ DB_PASSWORD=your_db_password
 DB_NAME=your_db_name
 JWT_SECRET=your_jwt_secret
 ```
+---
 
-### Running the Application
+## Running the Application
 ```bash
 # Development mode
 npm run start:dev
@@ -70,8 +70,8 @@ npm run start:dev
 # Production mode
 npm run start:prod
 ```
-
-### Testing
+---
+## Testing
 ```bash
 npm run test
 ```
@@ -85,7 +85,8 @@ UsersService
 
 UsersController
 
-### Project Structure
+---
+## Project Structure
 ```bash
 src/
 ├── auth/
@@ -107,15 +108,20 @@ src/
 ├── app.servic.ts
 └── main.ts
 ```
-
-### Contributing
+---
+## Contributing
 
 1.Fork the repository
+
 2.Create a feature branch (git checkout -b feature/xyz)
+
 3.Commit your changes (git commit -m 'feat: add xyz')
+
 4.Push to the branch (git push origin feature/xyz)
+
 5.Open a Pull Request
 
+---
 ## Author
  **Om Gaikwad**
 - GitHub: [https://github.com/omg2804]
